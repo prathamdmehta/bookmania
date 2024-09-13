@@ -379,7 +379,7 @@ body{
 
 .featured .featured-slider .box{
     width: 25rem;
-    margin: 2rem 0;
+    margin: 2rem .5rem;
     position: relative;
     overflow: hidden;
     border: var(--border);
@@ -504,7 +504,7 @@ body{
     gap: 1.5rem;
     padding: 2rem 1rem;
     border: var(--border);
-    margin: 1rem 0;
+    margin: 1rem .5rem;
 }
 
 .arrivals .arrivals-slider .box:hover{
@@ -664,6 +664,82 @@ body{
     height: 50rem;
 }
 
+.reviews .reviews-slider .box{
+    border: var(--border);
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem .5rem;
+}
+
+.reviews .reviews-slider .box:hover{
+    border: var(--border-hover);
+}
+
+.reviews .reviews-slider .box img{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews .reviews-slider .box h3{
+    color: var(--black);
+    font-size: 2.2rem;
+    padding: 2rem 0;
+}
+
+.reviews .reviews-slider .box p{
+    color: var(--light-color);
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.reviews .reviews-slider .box .stars i{
+    font-size: 1.7rem;
+    color: var(--green);
+}
+
+.blogs .blogs-slider .box{
+    margin: 2rem .5rem;
+    /* width: 30rem; */
+    border: var(--border);
+}
+
+.blogs .blogs-slider .box:hover{
+    border: var(--border-hover);
+}
+
+.blogs .blogs-slider .box .image{
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blogs .blogs-slider .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .blogs-slider .box .image img:hover{
+    transform: scale(1.1);
+}
+
+.blogs .blogs-slider .box .content{
+    padding: 1.5rem;
+}
+
+.blogs .blogs-slider .box .content h3{
+    font-size: 2.2rem;
+    color: var(--black);
+    /* padding-bottom: .5rem; */
+}
+.blogs .blogs-slider .box .content p{
+    font-size: 1.4rem;
+    color: var(--light-color);
+    /* padding-bottom: .5rem; */
+}
 
 
 
