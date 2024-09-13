@@ -776,6 +776,9 @@ body{
         box-shadow: var(--box-shadow);
         position: relative;
     }
+    .header .header-1 .logo{
+        font-size:2rem;
+    }
     .header .header-1 .search-form{
         position: absolute;
         top: -115%; right: 2rem;
